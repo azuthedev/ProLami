@@ -29,7 +29,7 @@ const SERVICES = [
   {
     id: 1,
     title: 'Permanent Makeup',
-    description: 'Naturligt lyft för fransar och bryn med skonsam Yumi-teknik.',
+    description: 'Permanent makeup (PMU) är en kosmetisk behandling där pigment förs in i det övre hudlagret för att skapa långvarig makeup. Vanliga områden är ögonbryn, eyeliner och läppar. PMU sparar tid, ger jämn form och färg, och utförs av certifierade experter för ett naturligt och hållbart resultat. Rekommenderas för att underlätta vardagen!',
     image: {
       webp: '/assets/lash_brow_card.webp',
       png: '/assets/lash_brow_card.png',
