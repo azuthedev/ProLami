@@ -24,7 +24,7 @@ const CONTENT = {
     },
     {
       question: 'Vad är skillnaden mellan vanlig Lashlift och YUMI?',
-      answer: 'Lashlift och Yumi Lashlift har samma mål med skillnaden:\n\nPremium vätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
+      answer: 'Lashlift och Yumi Lashlift har samma mål, men med följande skillnader:\n\nPremium vätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
     },
     {
       question: 'Hur länge håller Permanent Makeup?',
