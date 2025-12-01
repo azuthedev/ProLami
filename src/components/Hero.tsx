@@ -33,7 +33,7 @@ const CONTENT = {
     line2: 'Perfekt utförd.',
   },
   subline:
-    'Sarvin Mukhitdinova – certifierad PMU-artist\noch specialist på fransar och bryn.',
+    'Specialiserad på bryn, fransar och permanent makeup, med fokus på att framhäva varje persons naturliga skönhet.',
   cta: {
     primary: {
       text: 'Boka tid',
