@@ -31,7 +31,7 @@ const cardVariants = {
 
 export default function Reviews() {
   return (
-    <section className="bg-[#F8F7F4] reviews-section" style={{ paddingTop: '72px', paddingBottom: '80px' }}>
+    <section id="reviews" className="bg-[#F8F7F4] reviews-section" style={{ paddingTop: '72px', paddingBottom: '80px' }}>
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
         <motion.div
           initial="hidden"

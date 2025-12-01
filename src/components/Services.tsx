@@ -38,9 +38,12 @@ const SERVICES = [
   },
   {
     id: 2,
-    title: 'Trådning & Vaxning',
-    description: 'Precisa behandlingar för perfekt formade bryn och ett rent intryck.',
-    image: null,
+    title: 'Browlift – Naturligt Lyft',
+    description: 'Naturligt formade och fylligare bryn med Browlift-teknik.',
+    image: {
+      webp: '/assets/browlift_card.webp',
+      png: '/assets/browlift_card.png',
+    },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/nyhet-threading-tradning-av-overlapp-ogonbryn-haka-3325505',
   },
   {
@@ -57,7 +60,7 @@ const SERVICES = [
 
 export default function Services() {
   return (
-    <section className="bg-[#F8F7F4]" style={{ paddingTop: '80px', paddingBottom: '124px' }}>
+    <section id="services" className="bg-[#F8F7F4] pt-20 pb-8 lg:pt-[80px] lg:pb-[60px]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
         <motion.div
           initial="hidden"
