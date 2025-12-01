@@ -44,7 +44,7 @@ const SERVICES = [
       webp: '/assets/browlift_card.webp',
       png: '/assets/browlift_card.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/nyhet-threading-tradning-av-overlapp-ogonbryn-haka-3325505',
+    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
   {
     id: 3,
