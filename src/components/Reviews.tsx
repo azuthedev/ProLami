@@ -47,7 +47,7 @@ export default function Reviews() {
           >
             <div className="flex-shrink-0">{STAR_SVG}</div>
             <span className="font-inter text-[12.8px] md:text-[18px] font-medium text-[#232323] text-center">
-              4.9 av 5 – baserat på 2356 omdömen
+              4.9 av 5
             </span>
           </motion.div>
 

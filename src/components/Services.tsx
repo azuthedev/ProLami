@@ -27,16 +27,6 @@ const cardVariants = {
 // Service data
 const SERVICES = [
   {
-    id: 1,
-    title: 'Permanent Makeup',
-    description: 'Permanent makeup (PMU) är en kosmetisk behandling där pigment förs in i det övre hudlagret för att skapa långvarig makeup. Vanliga områden är ögonbryn, eyeliner och läppar. PMU sparar tid, ger jämn form och färg, och utförs av certifierade experter för ett naturligt och hållbart resultat. Rekommenderas för att underlätta vardagen!',
-    image: {
-      webp: '/assets/pmu_card.webp',
-      png: '/assets/pmu_card.png',
-    },
-    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
-  },
-  {
     id: 2,
     title: 'Browlift & Lashlift',
     description: 'Lamination – lyft dina bryn fransar naturligt med hjälp av permanenta vätskor. Resultatet blir fylligare, välvårdat och mer definierat utan smink. Behandlingen ger ett långvarigt, naturligt resultat och utförs av certifierade experter.',
@@ -47,12 +37,22 @@ const SERVICES = [
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
   {
+    id: 1,
+    title: 'Permanent Makeup',
+    description: 'Permanent makeup (PMU) är en kosmetisk behandling där pigment förs in i det övre hudlagret för att skapa långvarig makeup. Vanliga områden är ögonbryn, eyeliner och läppar. PMU sparar tid, ger jämn form och färg, och utförs av certifierade experter för ett naturligt och hållbart resultat. Rekommenderas för att underlätta vardagen!',
+    image: {
+      webp: '/assets/pmu_card.webp',
+      png: '/assets/pmu_card.png',
+    },
+    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
+  },
+  {
     id: 3,
     title: 'PMU – Laserborttagning',
     description: 'Hos oss kan du smidigt ta bort oönskad eller gammal permanent makeup på bryn, läppar eller ögon – tryggt och effektivt.',
     image: {
-      webp: '/assets/browlift_card.webp',
-      png: '/assets/browlift_card.png',
+      webp: '/assets/laser.webp',
+      png: '/assets/laser.png',
     },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
@@ -123,13 +123,13 @@ export default function Services() {
                   {/* Service Title */}
                   <h3
                     className="font-cormorant text-[24px] lg:text-[30px] leading-[150%] text-[#000000] font-semibold text-center"
-                    style={{ fontFamily: 'Cormorant Garamond, serif' }}
+                    style={{ fontFamily: 'Cormorant Garamond, serif', marginBottom: '24px' }}
                   >
                     {service.title}
                   </h3>
 
                   {/* Service Description */}
-                  <div className="w-full lg:w-[320px] lg:h-[47px] flex items-center justify-center" style={{ marginTop: '24px' }}>
+                  <div className="w-full flex items-start justify-center" style={{ minHeight: '168px' }}>
                     <p
                       className="font-inter text-[16px] leading-[150%] text-[#232323] text-center"
                       style={{ opacity: 0.9 }}
