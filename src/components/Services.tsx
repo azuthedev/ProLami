@@ -56,6 +56,17 @@ const SERVICES = [
     },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
+  {
+    id: 4,
+    title: 'Trådning – Threading',
+    description: 'Trådning är en skonsam och precis metod som tar bort hår från roten, ger jämna och välformade bryn, passar känslig hud och ger långvarigt resultat.',
+    image: {
+      webp: '/assets/threading.webp',
+      png: '/assets/threading.png',
+    },
+    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
+    mobileOnly: true,
+  },
 ];
 
 export default function Services() {
@@ -93,7 +104,7 @@ export default function Services() {
               <motion.div
                 key={service.id}
                 variants={cardVariants}
-                className="flex flex-col items-center"
+                className={`flex flex-col items-center ${service.mobileOnly ? 'lg:hidden' : ''}`}
               >
                 {/* Card - Image Only */}
                 <div
@@ -129,7 +140,7 @@ export default function Services() {
                   </h3>
 
                   {/* Service Description */}
-                  <div className="w-full flex items-start justify-center" style={{ minHeight: '168px' }}>
+                  <div className="w-full flex items-start justify-center lg:min-h-[168px]">
                     <p
                       className="font-inter text-[16px] leading-[150%] text-[#232323] text-center"
                       style={{ opacity: 0.9 }}
