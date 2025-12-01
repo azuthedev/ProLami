@@ -24,7 +24,7 @@ const CONTENT = {
     },
     {
       question: 'Vad är skillnaden mellan vanlig Lashlift och YUMI?',
-      answer: 'Lashlift och Yumi Lashlift har samma mål, men med följande skillnader:\n\nPremiumvätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
+      answer: '• Syfte: Lyfter fransarna samtidigt som de vårdas och stärker dem.\n• Produkter: Vegetabiliska/keratin-baserade lösningar som är skonsammare mot fransarna och vårdar dem under behandlingen.\n• Resultat: Fransarna blir naturligt böjda, längre och fylligare med mer glans. Resultatet ser ofta mer “naturligt” och välvårdat ut jämfört med traditionell lashlift.\n• Hållbarhet: Ca 6–8 veckor, med bättre franshälsa på lång sikt.\n• Tillägg: Yumi inkluderar ofta även keratinbehandling för fransarna, vilket stärker dem och motverkar brytning.',
     },
     {
       question: 'Hur länge håller Permanent Makeup?',
