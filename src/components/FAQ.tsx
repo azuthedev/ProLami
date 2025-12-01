@@ -19,7 +19,7 @@ const CONTENT = {
   subtitle: 'Här hittar du svar på de vanligaste frågorna.',
   faqs: [
     {
-      question: 'Hur länge är hållbarhet på Lash&Brow Lamination?',
+      question: 'Hur länge är hållbarheten på Lash & Brow Lamination?',
       answer: 'Hållbarheten är mellan 4-6 veckor.',
     },
     {
