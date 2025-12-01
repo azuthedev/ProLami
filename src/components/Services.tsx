@@ -28,7 +28,7 @@ const cardVariants = {
 const SERVICES = [
   {
     id: 1,
-    title: 'Yumi Lash & Brow Lamination',
+    title: 'Permanent Makeup',
     description: 'Naturligt lyft för fransar och bryn med skonsam Yumi-teknik.',
     image: {
       webp: '/assets/lash_brow_card.webp',
@@ -38,7 +38,7 @@ const SERVICES = [
   },
   {
     id: 2,
-    title: 'Browlift – Naturligt Lyft',
+    title: 'Bryn & Frans Behandlingar',
     description: 'Naturligt formade och fylligare bryn med Browlift-teknik.',
     image: {
       webp: '/assets/browlift_card.webp',
@@ -48,7 +48,7 @@ const SERVICES = [
   },
   {
     id: 3,
-    title: 'PMU – Permanent Makeup',
+    title: 'PMU – Laserborttagning',
     description: 'PMU för naturligt definierade läppar och bryn med hållbart resultat.',
     image: {
       webp: '/assets/pmu_card.webp',
