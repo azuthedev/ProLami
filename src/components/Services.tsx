@@ -38,8 +38,8 @@ const SERVICES = [
   },
   {
     id: 2,
-    title: 'Bryn & Frans Behandlingar',
-    description: 'Naturligt formade och fylligare bryn med Browlift-teknik.',
+    title: 'Browlift & Lashlift',
+    description: 'Lamination – lyft dina bryn fransar naturligt med hjälp av permanenta vätskor. Resultatet blir fylligare, välvårdat och mer definierat utan smink. Behandlingen ger ett långvarigt, naturligt resultat och utförs av certifierade experter.',
     image: {
       webp: '/assets/browlift_card.webp',
       png: '/assets/browlift_card.png',
@@ -49,7 +49,7 @@ const SERVICES = [
   {
     id: 3,
     title: 'PMU – Laserborttagning',
-    description: 'PMU för naturligt definierade läppar och bryn med hållbart resultat.',
+    description: 'Hos oss kan du smidigt ta bort oönskad eller gammal permanent makeup på bryn, läppar eller ögon – tryggt och effektivt.',
     image: {
       webp: '/assets/pmu_card.webp',
       png: '/assets/pmu_card.png',
