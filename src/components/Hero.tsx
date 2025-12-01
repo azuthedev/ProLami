@@ -29,8 +29,8 @@ const imageVariants = {
 
 const CONTENT = {
   headline: {
-    line1: 'Naturlig skönhet.',
-    line2: 'Perfekt utförd.',
+    line1: 'Naturlig touch.',
+    line2: 'Perfekt finish.',
   },
   subline:
     'Specialiserad på bryn, fransar och permanent makeup, med fokus på att framhäva varje persons naturliga skönhet.',
