@@ -19,24 +19,20 @@ const CONTENT = {
   subtitle: 'Här hittar du svar på de vanligaste frågorna.',
   faqs: [
     {
-      question: 'Hur länge håller ett lashlift eller browlift?',
-      answer: 'Resultatet håller vanligtvis 6–8 veckor beroende på hårväxt och skötsel.',
+      question: 'Hur länge är hållbarhet på Lash&Brow Lamination?',
+      answer: 'Hållbarheter är mellan 4-6 veckor',
     },
     {
-      question: 'Gör behandlingarna ont?',
-      answer: 'Nej. De flesta upplever behandlingarna som avslappnande och helt smärtfria.',
+      question: 'Vad är skillnaden mellan vanlig Lashlift och YUMI?',
+      answer: 'Lashlift och Yumi Lashlift har samma mål med skillnaden:\n\nPremium vätskor med vårdande ingredienser\n\nMer hållbarhet på 8 veckor',
     },
     {
-      question: 'Kan jag sminka mig efter ett lashlift eller browlift?',
-      answer: 'Ja, men vänta 24 timmar innan du använder mascara eller oljebaserade produkter.',
+      question: 'Hur länge håller Permanent Makeup?',
+      answer: 'Permanent Makeup håller oftast 2-4 år efter påfyllningen. För mer information om behandlingen rekommenderas det att boka en Kostnadsfri konsultation innan besöket.',
     },
     {
-      question: 'Hur länge håller PMU på läppar eller bryn?',
-      answer: 'PMU håller normalt 1–3 år beroende på hudtyp, skötsel och livsstil.',
-    },
-    {
-      question: 'Behöver jag en konsultation innan en behandling?',
-      answer: 'För de flesta behandlingar behövs ingen konsultation. Vid PMU går vi alltid igenom dina önskemål innan vi börjar.',
+      question: 'Skadar Lamination bryn och fransarna?',
+      answer: 'Nej. Om du följer terapeutens rekommendationer och tar hand om dina fransar och bryn efter behandlingen är det inte skadligt. Tvärtom kan du få ett hållbart resultat och bättre kvalitet över tid.',
     },
   ],
   cta: {
@@ -87,7 +83,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: {
       >
         <div className="pb-6 pt-4">
           <p
-            className="font-inter text-[14px] lg:text-[16px] leading-[150%] text-[#232323] w-[90%]"
+            className="font-inter text-[14px] lg:text-[16px] leading-[150%] text-[#232323] w-[90%] whitespace-pre-line"
             style={{ opacity: 0.9 }}
           >
             {answer}
