@@ -24,14 +24,14 @@ const CONTENT = {
     },
     {
       question: 'Vad är skillnaden mellan vanlig Lashlift och YUMI?',
-      answer: 'Lashlift och Yumi Lashlift har samma mål, men med följande skillnader:\n\nPremium vätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
+      answer: 'Lashlift och Yumi Lashlift har samma mål, men med följande skillnader:\n\nPremiumvätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
     },
     {
       question: 'Hur länge håller Permanent Makeup?',
-      answer: 'Permanent Makeup håller oftast 2-4 år efter påfyllningen. För mer information om behandlingen rekommenderas det att boka en Kostnadsfri konsultation innan besöket.',
+      answer: 'Permanent Makeup håller oftast 2-4 år efter påfyllningen. För mer information om behandlingen rekommenderas det att boka en kostnadsfri konsultation innan besöket.',
     },
     {
-      question: 'Skadar Lamination bryn och fransarna?',
+      question: 'Skadar Lamination brynen och fransarna?',
       answer: 'Nej. Om du följer terapeutens rekommendationer och tar hand om dina fransar och bryn efter behandlingen är det inte skadligt. Tvärtom kan du få ett hållbart resultat och bättre kvalitet över tid.',
     },
   ],
