@@ -34,7 +34,7 @@ const SERVICES = [
       webp: '/assets/lash_brow_card.webp',
       png: '/assets/lash_brow_card.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/double-yumi-lashes-ovre-nedre-fransar-3325502',
+    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const SERVICES = [
       webp: '/assets/pmu_card.webp',
       png: '/assets/pmu_card.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/aquarelle-lips-lappigmentering-pmu-ord-pris-3995fran-december-3162112',
+    bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
 ];
 
