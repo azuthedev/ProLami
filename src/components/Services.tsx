@@ -31,8 +31,8 @@ const SERVICES = [
     title: 'Permanent Makeup',
     description: 'Permanent makeup (PMU) är en kosmetisk behandling där pigment förs in i det övre hudlagret för att skapa långvarig makeup. Vanliga områden är ögonbryn, eyeliner och läppar. PMU sparar tid, ger jämn form och färg, och utförs av certifierade experter för ett naturligt och hållbart resultat. Rekommenderas för att underlätta vardagen!',
     image: {
-      webp: '/assets/lash_brow_card.webp',
-      png: '/assets/lash_brow_card.png',
+      webp: '/assets/pmu_card.webp',
+      png: '/assets/pmu_card.png',
     },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
@@ -41,8 +41,8 @@ const SERVICES = [
     title: 'Browlift & Lashlift',
     description: 'Lamination – lyft dina bryn fransar naturligt med hjälp av permanenta vätskor. Resultatet blir fylligare, välvårdat och mer definierat utan smink. Behandlingen ger ett långvarigt, naturligt resultat och utförs av certifierade experter.',
     image: {
-      webp: '/assets/browlift_card.webp',
-      png: '/assets/browlift_card.png',
+      webp: '/assets/lash_brow_card.webp',
+      png: '/assets/lash_brow_card.png',
     },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
@@ -51,8 +51,8 @@ const SERVICES = [
     title: 'PMU – Laserborttagning',
     description: 'Hos oss kan du smidigt ta bort oönskad eller gammal permanent makeup på bryn, läppar eller ögon – tryggt och effektivt.',
     image: {
-      webp: '/assets/pmu_card.webp',
-      png: '/assets/pmu_card.png',
+      webp: '/assets/browlift_card.webp',
+      png: '/assets/browlift_card.png',
     },
     bookingUrl: 'https://www.bokadirekt.se/boka-tjanst/odenplanskliniken-35930/',
   },
