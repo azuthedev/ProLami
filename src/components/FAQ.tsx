@@ -20,11 +20,11 @@ const CONTENT = {
   faqs: [
     {
       question: 'Hur länge är hållbarhet på Lash&Brow Lamination?',
-      answer: 'Hållbarheter är mellan 4-6 veckor',
+      answer: 'Hållbarheten är mellan 4-6 veckor.',
     },
     {
       question: 'Vad är skillnaden mellan vanlig Lashlift och YUMI?',
-      answer: 'Lashlift och Yumi Lashlift har samma mål med skillnaden:\n\nPremium vätskor med vårdande ingredienser\n\nMer hållbarhet på 8 veckor',
+      answer: 'Lashlift och Yumi Lashlift har samma mål med skillnaden:\n\nPremium vätskor med vårdande ingredienser.\n\nMer hållbarhet på 8 veckor.',
     },
     {
       question: 'Hur länge håller Permanent Makeup?',
