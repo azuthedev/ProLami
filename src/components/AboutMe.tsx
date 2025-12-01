@@ -41,7 +41,7 @@ const CONTENT = {
   },
   instagram: {
     text: 'Se mer på Instagram →',
-    href: 'https://www.instagram.com/prolami.se/',
+    href: 'https://www.instagram.com/pro.lamiination/',
   },
 };
 

@@ -3,7 +3,7 @@ import { Instagram } from 'lucide-react';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const bookingUrl = 'https://www.bokadirekt.se/places/odenplanskliniken-35930';
-  const instagramUrl = 'INSTAGRAM_URL_HERE';
+  const instagramUrl = 'https://www.instagram.com/pro.lamiination/';
 
   return (
     <footer id="kontakt" className="bg-[#232323] pt-[48px] pb-[40px]">
