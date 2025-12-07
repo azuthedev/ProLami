@@ -45,10 +45,10 @@ export default function Footer() {
                   E-post:
                 </p>
                 <a
-                  href="mailto:kontakt@prolami.se"
+                  href="mailto:info@prolami.se"
                   className="font-inter text-[13px] text-[#F5F5F5]/80 hover:underline"
                 >
-                  kontakt@prolami.se
+                  info@prolami.se
                 </a>
               </div>
 
