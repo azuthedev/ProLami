@@ -52,17 +52,6 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div className="flex flex-col gap-[10px] text-left">
-                <p className="font-inter font-semibold text-[13px] text-[#F5F5F5]">
-                  Telefon:
-                </p>
-                <a
-                  href="tel:+46700000000"
-                  className="font-inter text-[13px] text-[#F5F5F5]/80 hover:underline"
-                >
-                  +46 (0)70 000 00 00
-                </a>
-              </div>
             </div>
           </div>
 
