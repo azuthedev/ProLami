@@ -52,7 +52,7 @@ const IMAGES = [
 
 export default function BeforeAfter() {
   return (
-    <section id="before-after" className="bg-[#F8F7F4] pt-8 pb-20 lg:pt-[52px] lg:pb-[124px]">
+    <section id="before-after" className="bg-[#F7F1EA] pt-8 pb-20 lg:pt-[52px] lg:pb-[124px]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
         <motion.div
           initial="hidden"

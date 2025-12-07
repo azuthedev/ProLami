@@ -71,7 +71,7 @@ const SERVICES = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-[#F8F7F4] pt-20 pb-8 lg:pt-[80px] lg:pb-[60px]">
+    <section id="services" className="bg-[#F7F1EA] pt-20 pb-8 lg:pt-[80px] lg:pb-[60px]">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
         <motion.div
           initial="hidden"
@@ -86,7 +86,7 @@ export default function Services() {
             className="font-cormorant text-[36px] lg:text-[48px] leading-[150%] text-[#232323] text-center"
             style={{ fontFamily: 'Cormorant Garamond, serif', marginBottom: '16px' }}
           >
-            Mina Behandlingar
+            Behandlingar
           </motion.h2>
 
           {/* Subline */}

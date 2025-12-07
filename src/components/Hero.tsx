@@ -105,8 +105,8 @@ export default function Hero() {
   };
 
   return (
-    <div className="bg-[#F8F7F4] min-h-[600px] lg:min-h-0">
-      <header className="absolute top-0 left-0 right-0 bg-[#F8F7F4] z-50">
+    <div className="bg-[#F7F1EA] min-h-[600px] lg:min-h-0">
+      <header className="absolute top-0 left-0 right-0 bg-[#F7F1EA] z-50">
         <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-[88px] lg:h-auto lg:pt-[29px] lg:pb-[48px]">
             <div className="hidden lg:flex items-center gap-6">

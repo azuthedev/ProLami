@@ -32,7 +32,7 @@ const CONTENT = {
     },
     {
       question: 'Skadar Lamination brynen och fransarna?',
-      answer: 'Nej. Om du följer terapeutens rekommendationer och tar hand om dina fransar och bryn efter behandlingen är det inte skadligt. Tvärtom kan du få ett hållbart resultat och bättre kvalitet över tid.',
+      answer: 'Lash- och browlamination är fullt säkra behandlingar som inte skadar varken fransarna eller brynen när de utförs korrekt. Vi arbetar endast med professionella produkter och noggrant anpassade tider, vilket gör att hårstråna behåller sin styrka, glans och naturliga struktur.\n\nFör kunder med känsliga ögon erbjuder vi även Yumi Lashes, en exklusiv och mycket skonsam behandling.\nYumi är utvecklad för att vara extra mild mot fransarna, samtidigt som den:\n• Stärker fransarna\n• Ger näring\n• Gör dem synbart längre och fylligare\n• Passar perfekt för även mycket känsliga ögon',
     },
   ],
   cta: {
@@ -102,7 +102,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="bg-[#F8F7F4] pt-[64px] lg:pt-[80px] pb-[80px] lg:pb-[120px]">
+    <section id="faq" className="bg-[#F7F1EA] pt-[64px] lg:pt-[80px] pb-[80px] lg:pb-[120px]">
       <div className="max-w-[1280px] mx-auto px-4 lg:px-6">
         <motion.div
           initial="hidden"
