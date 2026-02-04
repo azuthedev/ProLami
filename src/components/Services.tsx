@@ -34,7 +34,7 @@ const SERVICES = [
       webp: '/assets/lash_brow_card.webp',
       png: '/assets/lash_brow_card.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/places/odenplanskliniken-35930',
+    bookingUrl: 'https://www.bokadirekt.se/places/prolamination-38424',
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const SERVICES = [
       webp: '/assets/pmu_card.webp',
       png: '/assets/pmu_card.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/places/odenplanskliniken-35930',
+    bookingUrl: 'https://www.bokadirekt.se/places/prolamination-38424',
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const SERVICES = [
       webp: '/assets/laser.webp',
       png: '/assets/laser.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/places/odenplanskliniken-35930',
+    bookingUrl: 'https://www.bokadirekt.se/places/prolamination-38424',
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const SERVICES = [
       webp: '/assets/threading.webp',
       png: '/assets/threading.png',
     },
-    bookingUrl: 'https://www.bokadirekt.se/places/odenplanskliniken-35930',
+    bookingUrl: 'https://www.bokadirekt.se/places/prolamination-38424',
     mobileOnly: true,
   },
 ];
