@@ -37,7 +37,7 @@ const CONTENT = {
   cta: {
     primary: {
       text: 'Boka tid',
-      href: 'https://www.bokadirekt.se/places/odenplanskliniken-35930',
+      href: 'https://www.bokadirekt.se/places/prolamination-38424',
     },
     secondary: {
       text: 'Se före/efter',
