@@ -139,7 +139,7 @@ export default function Reviews() {
           {/* CTA Link */}
           <motion.a
             variants={cardVariants}
-            href="https://www.bokadirekt.se/places/odenplanskliniken-35930#reviews"
+            href="https://www.bokadirekt.se/places/prolamination-38424"
             target="_blank"
             rel="noopener noreferrer"
             className="font-inter text-[16px] font-medium text-[#232323] text-center transition-all duration-200 hover:opacity-80 hover:underline"
