@@ -157,7 +157,7 @@ export default function BeforeAfter() {
 
           <motion.a
             variants={cardVariants}
-            href="https://www.bokadirekt.se/places/odenplanskliniken-35930"
+            href="https://www.bokadirekt.se/places/prolamination-38424"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center w-[300px] lg:w-[227px] h-[52px] lg:h-[56px] bg-[#232323] text-white rounded-lg font-inter text-[16px] font-medium transition-colors duration-200 hover:bg-[#000000]"
