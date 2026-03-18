@@ -2,7 +2,7 @@ import { Instagram } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const bookingUrl = 'https://www.bokadirekt.se/places/odenplanskliniken-35930';
+  const bookingUrl = 'https://www.bokadirekt.se/places/prolamination-38424';
   const instagramUrl = 'https://www.instagram.com/pro.lamiination/';
 
   return (
