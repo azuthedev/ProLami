@@ -36,7 +36,7 @@ export default function Footer() {
                   Adress:
                 </p>
                 <p className="font-inter text-[13px] text-[#F5F5F5]/80">
-                  Upplandsgatan 23, 113 60 Stockholm
+                  Jungfrugatan 7C 114 44 Stockholm
                 </p>
               </div>
 
