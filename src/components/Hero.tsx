@@ -337,7 +337,9 @@ export default function Hero() {
             >
               {CONTENT.subline.line1}
               <br />
-              {CONTENT.subline.line2}
+              <span className="hero-subline-mobile-second text-[13.5px] leading-[1.45]">
+                {CONTENT.subline.line2}
+              </span>
             </motion.p>
 
             <motion.div
