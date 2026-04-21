@@ -32,8 +32,10 @@ const CONTENT = {
     line1: 'Din skönhet,',
     line2: 'vår passion.',
   },
-  subline:
-    'Välkommen till  Pro Lami studio  där vi erbjuder behandlingar inom bryn, fransar, hud och mer. Vi arbetar med noggrannhet och känsla för detaljer för att lyfta fram din naturliga skönhet.',
+  subline: {
+    line1: 'Välkommen till Pro Lami studio där vi erbjuder behandlingar inom bryn, fransar, hud och mer.',
+    line2: 'Vi arbetar med noggrannhet och känsla för detaljer för att lyfta fram din naturliga skönhet.',
+  },
   cta: {
     primary: {
       text: 'Boka tid',
@@ -246,14 +248,18 @@ export default function Hero() {
                     className="font-cormorant text-[64px] text-[#232323]"
                     style={{ fontFamily: 'Cormorant Garamond, serif', lineHeight: '110%' }}
                   >
-                    {CONTENT.headline.line1} {CONTENT.headline.line2}
+                    {CONTENT.headline.line1}
+                    <br />
+                    {CONTENT.headline.line2}
                   </h1>
 
                   <p
                     className="font-inter text-[18px] leading-[1.5] text-[#232323] max-w-[520px]"
                     style={{ marginTop: '24px' }}
                   >
-                    {CONTENT.subline}
+                    {CONTENT.subline.line1}
+                    <br />
+                    {CONTENT.subline.line2}
                   </p>
 
                   <div className="flex" style={{ marginTop: '32px', gap: '37px' }}>
@@ -329,7 +335,9 @@ export default function Hero() {
               variants={textVariants}
               className="mt-4 font-inter text-[14px] leading-[1.5] text-[#232323] text-left w-[300px]"
             >
-              {CONTENT.subline}
+              {CONTENT.subline.line1}
+              <br />
+              {CONTENT.subline.line2}
             </motion.p>
 
             <motion.div
